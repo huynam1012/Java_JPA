@@ -12,7 +12,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("demo-pu");
+    	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("jpa-hnt");
     	EntityManager em = entityManagerFactory.createEntityManager();
     	
     	System.out.println(em);
